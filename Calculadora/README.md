@@ -139,6 +139,7 @@ Resultado esperado:
 ## Capturas de ejecución
 
 **Compilacion de archivos:**
+
 <img width="479" height="18" alt="image" src="https://github.com/user-attachments/assets/1976ab55-a31e-410a-b8e6-4de03d7ff113" />
 
 <img width="642" height="52" alt="image" src="https://github.com/user-attachments/assets/3a4d884b-8360-4ed7-b0fc-67abb2af88e9" />
@@ -147,6 +148,7 @@ Resultado esperado:
 
 
 **Ejecucion con expresiones desde archivo de texto:**
+
 <img width="535" height="156" alt="image" src="https://github.com/user-attachments/assets/9bd92652-f227-4e4e-8cda-04858326bfeb" />
 
 
@@ -154,6 +156,7 @@ Resultado esperado:
 
 
 **Ejecucion con variables desde archivo de texto:**
+
 <img width="551" height="123" alt="image" src="https://github.com/user-attachments/assets/985a4a0a-2b7a-42f9-97c5-d36cec68ace3" />
 
 
