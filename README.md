@@ -97,6 +97,8 @@ antlr4 TuGramatica.g4
 javac -cp .:/home/tuUsuario/antlr-4.13.2-complete.jar *.java
 ```
 
+<img width="632" height="39" alt="image" src="https://github.com/user-attachments/assets/bf09e06f-f536-4af0-b144-9fa42c886042" />
+
 ### 3. Probar la gramática
 ```bash
 # Ver árbol de texto
