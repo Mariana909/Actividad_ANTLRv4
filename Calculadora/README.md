@@ -139,13 +139,24 @@ Resultado esperado:
 ## Capturas de ejecución
 
 **Compilacion de archivos:**
+<img width="479" height="18" alt="image" src="https://github.com/user-attachments/assets/1976ab55-a31e-410a-b8e6-4de03d7ff113" />
 
-<!-- Insertar captura aquí -->
+<img width="642" height="52" alt="image" src="https://github.com/user-attachments/assets/3a4d884b-8360-4ed7-b0fc-67abb2af88e9" />
+
+<img width="1155" height="591" alt="image" src="https://github.com/user-attachments/assets/91e6de48-f7a6-452c-9d1f-22a821b213e6" />
+
 
 **Ejecucion con expresiones desde archivo de texto:**
+<img width="535" height="156" alt="image" src="https://github.com/user-attachments/assets/9bd92652-f227-4e4e-8cda-04858326bfeb" />
 
-<!-- Insertar captura aquí -->
+
+<img width="639" height="119" alt="image" src="https://github.com/user-attachments/assets/27129ead-eb68-4b15-be6d-ebb63f163262" />
+
 
 **Ejecucion con variables desde archivo de texto:**
+<img width="551" height="123" alt="image" src="https://github.com/user-attachments/assets/985a4a0a-2b7a-42f9-97c5-d36cec68ace3" />
 
-<!-- Insertar captura aquí -->
+
+<img width="639" height="73" alt="image" src="https://github.com/user-attachments/assets/07f5f567-0c32-40a2-8156-32207db168bf" />
+
+
