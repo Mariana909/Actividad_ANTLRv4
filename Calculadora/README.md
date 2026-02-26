@@ -25,7 +25,7 @@ La gramática definida en `LabeledExpr.g4` reconoce:
 ANTLR lee la gramática y genera los archivos Java necesarios:
 
 ```bash
-antlr4 LabeledExpr.g4
+antlr4 -visitor LabeledExpr.g4
 ```
 
 Esto genera archivos como `LabeledExprParser.java`, `LabeledExprLexer.java`, `LabeledExprBaseVisitor.java`, entre otros. Estos ya están disponibles en la carpeta `antlr/`.
