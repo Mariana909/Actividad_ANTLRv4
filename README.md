@@ -59,6 +59,9 @@ Ctrl+O → Enter → Ctrl+X
 
 ---
 
+<img width="652" height="437" alt="image" src="https://github.com/user-attachments/assets/0b210742-2e47-4f8d-b264-ee102ab58f41" />
+
+
 ##  Aplicar los cambios
 
 ```bash
