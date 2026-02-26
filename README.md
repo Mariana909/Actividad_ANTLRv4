@@ -90,14 +90,13 @@ Si todo está correcto, debería mostrarse la ayuda de ANTLR4 como en la siguien
 ```bash
 antlr4 TuGramatica.g4
 ```
-<img width="393" height="58" alt="image" src="https://github.com/user-attachments/assets/dd74d1e7-4373-4daf-830b-8f6aacf5fbc1" />
+
 
 ### 2. Compilar los archivos generados
 ```bash
 javac -cp .:/home/tuUsuario/antlr-4.13.2-complete.jar *.java
 ```
 
-<img width="632" height="39" alt="image" src="https://github.com/user-attachments/assets/bf09e06f-f536-4af0-b144-9fa42c886042" />
 
 ### 3. Probar la gramática
 ```bash
