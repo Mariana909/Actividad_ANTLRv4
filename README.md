@@ -1,24 +1,102 @@
-Configuración General para usar ANTLR
+#  Configuración General para usar ANTLR4
 
-<img width="627" height="87" alt="image" src="https://github.com/user-attachments/assets/eceabfb9-1cac-4e76-8aae-0ec28efb5ea1" />
+##  Requisitos previos
 
-Se descarga ANTLR desde https://www.antlr.org/download.html
+### Java
+ANTLR4 requiere tener **Java instalado**. Para instalarlo en Linux (Ubuntu/Zorin/Debian):
 
-Se declaran alias para mayor comodidad:
+```bash
+sudo apt update
+sudo apt install default-jdk
+```
+
+Para verificar que Java quedó instalado correctamente:
+
+```bash
+java -version
+```
+
+Deberías ver algo como:
+```
+openjdk version "17.0.x"
+```
+
+---
+
+##  Instalación de ANTLR4
+
+Descarga el archivo `.jar` desde la página oficial:
+
+ [https://www.antlr.org/download.html](https://www.antlr.org/download.html)
+
+---
+
+##  Configuración de alias
+
+Para mayor comodidad, se declaran alias en el archivo de configuración de la terminal:
+
+```bash
 nano ~/.bashrc
+```
 
-Se agrega lo siguiente al final del archivo:
+Agrega lo siguiente al **final del archivo**:
 
-alias antlr4='java -jar /home/zorin/antlr-4.13.2-complete.jar'
-alias grun='java -cp .:/home/zorin/antlr-4.13.2-complete.jar org.antlr.v4.gui.TestRig'
+```bash
+alias antlr4='java -jar /home/tuUsuario/antlr-4.13.2-complete.jar'
+alias grun='java -cp .:/home/tuUsuario/antlr-4.13.2-complete.jar org.antlr.v4.gui.TestRig'
+```
 
-Nota: La ruta varía dependiendo de donde se encuentre el archivo .jar
+> **Nota:** Reemplaza `/home/tuUsuario/` con la ruta donde guardaste el archivo `.jar`. Para conocer tu usuario puedes ejecutar `whoami`.
 
-Se guarda con Ctrl+O → Enter → Ctrl+X
+Guarda el archivo con:
+```
+Ctrl+O → Enter → Ctrl+X
+```
 
-Para aplicar los cambios:
+---
+
+##  Aplicar los cambios
+
+```bash
 source ~/.bashrc
+```
 
-Para verificar que todo se hizo correctamente:
+---
+
+##  Verificar la instalación
+
+```bash
 antlr4
+```
 
+Si todo está correcto, debería mostrarse la ayuda de ANTLR4 como en la siguiente imagen:
+
+![ANTLR4 funcionando](https://github.com/user-attachments/assets/eceabfb9-1cac-4e76-8aae-0ec28efb5ea1)
+
+---
+
+##  Uso básico
+
+### 1. Generar archivos Java desde una gramática
+```bash
+antlr4 TuGramatica.g4
+```
+
+### 2. Compilar los archivos generados
+```bash
+javac -cp .:/home/tuUsuario/antlr-4.13.2-complete.jar *.java
+```
+
+### 3. Probar la gramática
+```bash
+# Ver árbol de texto
+grun TuGramatica reglaInicial -tree
+
+# Ver árbol gráfico
+grun TuGramatica reglaInicial -gui
+
+# Ver tokens
+grun TuGramatica reglaInicial -tokens
+```
+
+>  Escribe tu entrada y presiona `Ctrl+D` para terminar.
