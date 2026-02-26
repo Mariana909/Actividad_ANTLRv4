@@ -25,6 +25,8 @@ ANTLR lee la gramática y genera automáticamente los archivos Java necesarios p
 antlr4 Hello.g4
 ```
 
+<img width="393" height="58" alt="image" src="https://github.com/user-attachments/assets/dd74d1e7-4373-4daf-830b-8f6aacf5fbc1" />
+
 Esto genera varios archivos `.java` como `HelloParser.java`, `HelloLexer.java`, entre otros. Estos ya están disponibles en la carpeta `antlr/`.
 
 ---
@@ -36,6 +38,8 @@ Se compilan todos los `.java` incluyendo el `.jar` de ANTLR en el classpath:
 ```bash
 javac -cp .:/home/tuUsuario/antlr-4.13.2-complete.jar *.java
 ```
+
+<img width="632" height="39" alt="image" src="https://github.com/user-attachments/assets/bf09e06f-f536-4af0-b144-9fa42c886042" />
 
 Esto genera los archivos `.class` que Java necesita para ejecutar el programa. Estos ya están disponibles en la carpeta `javac/`.
 
@@ -97,12 +101,18 @@ Resultado esperado:
 
 **Árbol de texto (`-tree`):**
 
-<!-- Insertar captura aquí -->
+<img width="403" height="50" alt="image" src="https://github.com/user-attachments/assets/38be4174-5243-42a4-9b98-b5fa90a2435b" />
+
 
 **Árbol gráfico (`-gui`):**
 
-<!-- Insertar captura aquí -->
+<img width="392" height="35" alt="image" src="https://github.com/user-attachments/assets/e62afd55-68c5-4796-9156-a61a20739534" />
+
+
+<img width="591" height="504" alt="image" src="https://github.com/user-attachments/assets/7d9d4733-1eb9-483c-824b-807b4106f599" />
+
 
 **Tokens (`-tokens`):**
 
-<!-- Insertar captura aquí -->
+<img width="417" height="93" alt="image" src="https://github.com/user-attachments/assets/80faa566-6920-4f73-9f5d-449503fdb319" />
+
