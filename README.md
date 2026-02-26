@@ -28,6 +28,8 @@ openjdk version "17.0.x"
 Descarga el archivo `.jar` desde la página oficial:
 
  [https://www.antlr.org/download.html](https://www.antlr.org/download.html)
+ <img width="627" height="87" alt="image" src="https://github.com/user-attachments/assets/0269e6d0-fdee-4e1c-b450-0974aae85a35" />
+
 
 ---
 
