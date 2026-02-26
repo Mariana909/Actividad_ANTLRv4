@@ -51,6 +51,7 @@ alias grun='java -cp .:/home/tuUsuario/antlr-4.13.2-complete.jar org.antlr.v4.gu
 
 > **Nota:** Reemplaza `/home/tuUsuario/` con la ruta donde guardaste el archivo `.jar`. Para conocer tu usuario puedes ejecutar `whoami`.
 
+
 Guarda el archivo con:
 ```
 Ctrl+O → Enter → Ctrl+X
@@ -71,6 +72,8 @@ source ~/.bashrc
 ```bash
 antlr4
 ```
+
+<img width="638" height="411" alt="image" src="https://github.com/user-attachments/assets/880a728d-4304-4b3f-85fc-0f2378985292" />
 
 Si todo está correcto, debería mostrarse la ayuda de ANTLR4 como en la siguiente imagen:
 
